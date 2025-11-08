@@ -23,29 +23,12 @@ public class CharacterRemover extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
 
-
         vowelCheckBox.setName("vowelCheckBox");
         consonantCheckBox.setName("consonantCheckBox");
         numberCheckBox.setName("numberCheckBox");
         removeButton.setName("removeButton");
         restoreButton.setName("restoreButton");
         textLabel.setName("textLabel");
-
-        vowelCheckBox.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                JCheckBox checkBox = (JCheckBox) e.getSource();
-            }
-        });
-        consonantCheckBox.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                JCheckBox checkBox = (JCheckBox) e.getSource();
-            }
-        });
-        numberCheckBox.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                JCheckBox checkBox = (JCheckBox) e.getSource();
-            }
-        });
 
         removeButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
