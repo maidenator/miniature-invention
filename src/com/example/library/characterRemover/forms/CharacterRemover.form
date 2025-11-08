@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.example.library.characterRemover.forms.CharacterRemover">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="350" height="167"/>
+      <requestFocusEnabled value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c3ce6" class="javax.swing.JLabel" binding="textLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"/>
+        </properties>
+      </component>
+      <component id="458b6" class="javax.swing.JCheckBox" binding="vowelCheckBox">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Vowels"/>
+        </properties>
+      </component>
+      <component id="da619" class="javax.swing.JCheckBox" binding="consonantCheckBox">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Consonants"/>
+        </properties>
+      </component>
+      <component id="6a2c7" class="javax.swing.JCheckBox" binding="numberCheckBox">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Numbers"/>
+        </properties>
+      </component>
+      <component id="478a0" class="javax.swing.JButton" binding="removeButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Remove"/>
+        </properties>
+      </component>
+      <component id="e6aac" class="javax.swing.JButton" binding="restoreButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Restore"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
